@@ -1,10 +1,10 @@
-- 👋 Hi, I’m @sujgithu
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Get user input
+number = int(input("Enter a number: "))
 
-<!---
-sujgithu/sujgithu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# Classify the number
+if number < 0:
+    print("The number is negative.")
+elif number == 0:
+    print("The number is zero.")
+else:
+    print("The number is positive.")
